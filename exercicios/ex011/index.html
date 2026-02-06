@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akira se adaptando</title>
+</head>
+<body>
+    <h1>O tamanho da imagem tem q se adaptar</h1>
+    <p>vou colocar tres tamanhos de imagens, veja elas mudar de tamanho ao aumentar e diminuir o tamanho da janela</p>
+    <picture>
+        <source media="(min-width: 1090px)" srcset="imagensEx011/akira1000.png" type="image/png">
+        <source media="(min-width: 500px)" srcset="imagensEx011/akira500.png" type="image/png">
+        <img src="imagensEx011/akira300.png" alt="imagemAkria">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="auto" autoplay controls loop src="midia/amem.mp3"></audio>
+</body>
+</html>
