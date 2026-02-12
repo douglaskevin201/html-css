@@ -19,8 +19,7 @@ body{
  
 }
 
-article.container1{
-    background-color: blue;
-    width: 800px;
-    height: 500px;
+article #container1{
+    background-image: url(imagens/);
+
 }
